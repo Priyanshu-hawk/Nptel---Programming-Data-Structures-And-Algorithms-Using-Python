@@ -33,4 +33,3 @@ def listtype(trm):
         return True
     if (type(trm)==type(())):
         return False
-print((["hello",True,3,{'h':'k'}]))
