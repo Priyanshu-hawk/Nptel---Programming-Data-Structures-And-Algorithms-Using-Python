@@ -18,9 +18,9 @@ def rainaverage(l):
 
 ############# Solution 2
 
-
+res =[]
 def flatten(lst):
-    res =[]
+    
     for i in lst:
         if listtype(i):
             flatten(i)
