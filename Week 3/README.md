@@ -1,28 +1,28 @@
 1. Define a Python function remdup(l) that takes a nonempty list of integers l and removes all duplicates in l, keeping only the last occurrence of each number. For instance:
 
->>> remdup([3,1,3,5])
+>>> remdup([3,1,3,5])<br>
 [1, 3, 5]
 
->>> remdup([7,3,-1,-5])
+>>> remdup([7,3,-1,-5])<br>
 [7, 3, -1, -5]
 
->>> remdup([3,5,7,5,3,7,10])
+>>> remdup([3,5,7,5,3,7,10])<br>
 [5, 3, 7, 10]
 
 2. Write a Python function splitsum(l) that takes a nonempty list of integers and returns a list [pos,neg], where pos is the sum of squares all the positive numbers in l and neg is the sum of cubes of all the negative numbers in l.
 
 Here are some examples to show how your function should work.
 
->>> splitsum([1,3,-5])
+>>> splitsum([1,3,-5])<br>
 [10, -125]
 
->>> splitsum([2,4,6])
+>>> splitsum([2,4,6])<br>
 [56, 0]
 
->>> splitsum([-19,-7,-6,0])
+>>> splitsum([-19,-7,-6,0])<br>
 [0, -7418]
 
->>> splitsum([-1,2,3,-7])
+>>> splitsum([-1,2,3,-7])<br>
 [13, -344]
 
 
@@ -56,25 +56,25 @@ Here are some examples to show how your function should work. You may assume tha
 >>> myl
 [[1, 2], [3, 4]]  
 
->>> matrixflip(myl,'h')
+>>> matrixflip(myl,'h')<br>
 [[2, 1], [4, 3]]
 
 >>> myl
 [[1, 2], [3, 4]]  
 
->>> matrixflip(myl,'v')
+>>> matrixflip(myl,'v')<br>
 [[3, 4], [1, 2]]  
 
 >>> myl
 [[1, 2], [3, 4]]  
 
->>> matrixflip(matrixflip(myl,'h'),'v')
+>>> matrixflip(matrixflip(myl,'h'),'v')<br>
 [[4, 3], [2, 1]]
 
 >>> myl
 [[1, 2], [3, 4]]  
 
->>> matrixflip(matrixflip(myl,'h'),'v')
+>>> matrixflip(matrixflip(myl,'h'),'v')<br>
 [[4, 3], [2, 1]]
 
 >>> myl
