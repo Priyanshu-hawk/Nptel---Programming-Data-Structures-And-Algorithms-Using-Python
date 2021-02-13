@@ -4,13 +4,13 @@ Write a Python function primepartition(m) that takes an integer m as input and r
 
 Here are some examples of how your function should work.
 
->>> primepartition(7)
+>>> primepartition(7)<br>
 True
 
->>> primepartition(185)
+>>> primepartition(185)<br>
 False
 
->>> primepartition(3432)
+>>> primepartition(3432)<br>
 True
 
 2. Write a function matched(s) that takes as input a string s and checks if the brackets "(" and ")" in s are matched: that is, every "(" has a matching ")" after it and every ")" has a matching "(" before it. Your function should ignore all other symbols that appear in s. Your function should return True if s has matched brackets and False if it does not.
@@ -18,16 +18,16 @@ True
 Here are some examples to show how your function should work.
 
  
->>> matched("zb%78")
+>>> matched("zb%78")<br>
 True
 
->>> matched("(7)(a")
+>>> matched("(7)(a")<br>
 False
 
->>> matched("a)*(?")
+>>> matched("a)*(?")<br>
 False
 
->>> matched("((jkl)78(A)&l(8(dd(FJI:),):)?)")
+>>> matched("((jkl)78(A)&l(8(dd(FJI:),):)?)")<br>
 True
 
 3. A list rotation consists of taking the first element and moving it to the end. For instance, if we rotate the list [1,2,3,4,5], we get [2,3,4,5,1]. If we rotate it again, we get [3,4,5,1,2].
@@ -36,11 +36,11 @@ Write a Python function rotatelist(l,k) that takes a list l and a positive integ
 
 Here are some examples to show how your function should work.
 
->>> rotatelist([1,2,3,4,5],1)
+>>> rotatelist([1,2,3,4,5],1)<br>
 [2, 3, 4, 5, 1]
 
->>> rotatelist([1,2,3,4,5],3)
+>>> rotatelist([1,2,3,4,5],3)<br>
 [4, 5, 1, 2, 3]
 
->>> rotatelist([1,2,3,4,5],12)
+>>> rotatelist([1,2,3,4,5],12)<br>
 [3, 4, 5, 1, 2]
